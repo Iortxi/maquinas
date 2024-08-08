@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Thu Aug  8 12:01:58 2024 as: nmap -p- -n -Pn --disable-arp-ping --open -sS --min-rate 3000 -vvv -oG puertos 10.10.11.243
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.11.243 ()	Status: Up
+Host: 10.10.11.243 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 1883/open/tcp//mqtt///, 5672/open/tcp//amqp///, 8161/open/tcp//patrol-snmp///, 42413/open/tcp/////, 61613/open/tcp/////, 61614/open/tcp/////, 61616/open/tcp/////	Ignored State: closed (65526)
+# Nmap done at Thu Aug  8 12:02:15 2024 -- 1 IP address (1 host up) scanned in 16.81 seconds
